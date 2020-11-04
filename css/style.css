@@ -1,0 +1,252 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #495057;
+  word-spacing: 2px;
+}
+
+@media (max-width: 768px){
+  nav li a{
+    border-bottom: 2px solid #faa307;
+  }
+  .text{
+    text-align: center;
+  }
+  .text-left{
+    text-align: left!important;
+  }
+  .app-screen{
+    text-align: center!important;
+  }
+  .margin{
+    margin-left: unset!important;
+  }
+  .margin-top{
+    margin-top: 40px!important;
+  }
+  .justify-c-c{
+    justify-content: center!important;
+  }
+  h2{
+    animation: none!important;
+  }
+}
+@media (max-width: 992px){
+  .justify-c-c{
+    justify-content: center!important;
+  }
+  h2{
+    animation: none!important;
+  }
+}
+@media (max-width: 575px){
+  footer .to-small{
+    width: 50%!important;
+  }
+  #images .display-larg{
+    display: none!important;
+  }
+  .display-carousel{
+    display: block!important;
+  }
+}
+nav{
+  /* background-color: rgba(20, 19, 19, 0.98)!important; */
+  /* box-shadow: 0 2px 2px #efefef; */
+  /* padding-top: 0px!important;
+  padding-bottom: 0!important; */
+}
+nav img{
+  height: 60px;
+}
+nav li a:hover{
+  border-bottom: 2px solid #faa307;
+  padding: 0!important;
+}
+.width{
+  /* min-width: 100vh; */
+}
+.height{
+  min-height: 100vh;
+}
+header{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/strenge/hero.jpg)center/cover no-repeat fixed;
+  letter-spacing: 2px;
+  color: #fdfffc;
+}
+.btn-active{
+  background-color: #faa307!important;
+  border: 1px solid #faa307!important;
+  border-radius: 20px!important;
+  color: #ffffff!important;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+  /* margin-top: 20px; */
+  font-size: 20px!important;
+  /* margin-right: 20px; */
+}
+.btn-active:hover{
+  background-color: #faa507af!important;
+}
+header button{
+  border: 1px solid #faa307!important;
+  border-radius: 20px!important;
+  color: #faa307!important;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+  margin-top: 20px;
+  font-size: 20px!important;
+}
+header button:hover{
+  color: #ffffff!important;
+  background-color: #faa507af;
+}
+.title-underline{
+  border: 1px solid #faa307;
+  width: 100px;
+  display: inline-block;
+  animation: ligne 5s infinite ;
+}
+@keyframes ligne{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    width: inherit;
+  }
+}
+.text-danger{
+  color: #faa307!important;
+}
+h2{
+  animation: word-space 5s infinite;
+}
+@keyframes word-space{
+  0%{
+    word-spacing: 50px;
+  }
+}
+h3{
+  font-size: 20px;
+}
+.meal-photo{
+overflow: hidden;
+background-color: #000;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+#images .display-larg img{
+  width: 100%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+  opacity: 0.7;
+}
+#images .display-larg img:hover{
+  transform: scale(1.03);
+  opacity: 1;
+}
+.display-carousel{
+  display: none;
+  /* width: 100%; */
+}
+#app{
+  background-color: #f4f4f4;
+}
+#app img{
+  width: 40%;
+}
+.numbers{
+  border: 1px solid #faa307;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #faa307;
+}
+.margin{
+  margin-left: 50px;
+}
+#app .app-screen-img{
+  width: 30%;
+}
+#cities span{
+  display: block;
+}
+.color{
+  color: #faa307;
+  font-size: 20px;
+}
+#cities a{
+  border-bottom: 1px solid #faa307;
+}
+#cities a:hover{
+  text-decoration: none;
+  color: #495057;
+  border-bottom: unset;
+}
+#review{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/strenge/back-customers.jpg)center/cover no-repeat fixed;
+}
+#review .color{
+  font-size: 30px;
+  color: #f4f4f4;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+#review img{
+  width: 15%;
+  margin-right: 15px;
+}
+#pricing{
+  background-color: #f4f4f4;
+}
+#pricing li, .card{
+  border: none;
+}
+#pricing .bb, #pricing ul{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)!important;
+}
+#pricing span{
+  font-size: 300%;
+  /* margin: 30px 0; */
+}
+#pricing .pricing-btn{
+  border: 1px solid #faa307!important;
+  border-radius: 20px!important;
+  color: #faa307!important;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+  /* margin-top: 20px; */
+  font-size: 20px!important;
+}
+#pricing .pricing-btn:hover{
+  color: #ffffff!important;
+  background-color: #faa507af;
+}
+textarea{
+  width: inherit;
+  height: 100px;
+}
+.list{
+  background-color: inherit;
+  border: none!important;
+}
+footer .list-1 a:hover{
+  text-decoration: none;
+  color: #f4f4f47c!important;
+}
+.fb:hover{
+  color: #4267B2;
+}
+.tw:hover{
+  color: #1DA1F2;
+}
+.gp:hover{
+  color: #DB4437;
+}
+.ig:hover{
+  color:#833AB4;
+}
+.display{
+  display: inline-block;
+}
