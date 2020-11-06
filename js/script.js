@@ -21,5 +21,5 @@ $(document).ready(function () {
   });
   setTimeout(function () {
     $(".loader_bg").hide();
-  }, 2500);
+  }, 2300);
 });
